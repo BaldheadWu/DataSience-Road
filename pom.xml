@@ -12,6 +12,7 @@
     <modules>
         <module>javaSE</module>
         <module>utils</module>
+        <module>tools</module>
     </modules>
 
     <properties>
