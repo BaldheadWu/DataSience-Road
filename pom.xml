@@ -16,7 +16,17 @@
 
     <properties>
         <java.version>11</java.version>
+        <junit.version>4.12</junit.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+            <version>${junit.version}</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
